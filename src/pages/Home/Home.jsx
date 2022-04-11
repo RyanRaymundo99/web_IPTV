@@ -8,7 +8,6 @@ const Home = () => {
       <Navbar />
       <Hero/>
       <Brand />
-      <Hero />
       <Pricing />
     </div>
   )
