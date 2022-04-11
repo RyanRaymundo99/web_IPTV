@@ -1,4 +1,4 @@
-import { Navbar, Hero, Brand, Pricing } from '../../components/export/export';
+import { Navbar, Hero, Brand, Pricing } from '../../components/export';
 import './home.css';
 
 const Home = () => {
