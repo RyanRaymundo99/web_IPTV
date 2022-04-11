@@ -1,5 +1,5 @@
 import { Navbar, Brand, Pricing } from '../../components/export';
-import { Hero } from '../../components/export';
+import Hero from '../../components/Hero/Hero'
 import './home.css';
 
 const Home = () => {
@@ -7,7 +7,7 @@ const Home = () => {
     <div className='home'>
       <Navbar />
       <Hero />
-      <Brand/>
+      <Brand />
       <Pricing />
     </div>
   )
