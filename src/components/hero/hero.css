@@ -65,7 +65,7 @@
     font-family: var(--font-family);
     font-size: 18px;
     line-height: 30px;
-    color: white;
+    color: rgb(229, 226, 226);
 
     margin-bottom: 2rem;
 }
@@ -100,15 +100,27 @@
     }
 
     .talk-hub__header-content h4{
-        font-size: ;
+        font-size: 10px;
+        line-height: 17px;
     }
 
     .talk-hub__header-content h1{
-        font-size: ;
+        font-size: 17px;
+        line-height: 22px;
+        margin: 10px;
     }
 
     .talk-hub__header-content p{
-        font-size: ;
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 1rem
+    }
+
+    .header_button {
+        padding: 5px 5px;
+        border-radius: 5px;
+        font-size: 1rem;
+        margin-bottom: 10px;
     }
   
   }

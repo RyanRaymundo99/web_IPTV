@@ -6,9 +6,8 @@ import './navbar.css';
 const Menu = () => (
   <>
   <p><a href='#home'>Home</a></p>
-  <p><a href='#aboutus'>About us</a></p>
-  <p><a href='#experience'>Experience</a></p>
   <p><a href='#pricing'>Pricing</a></p>
+  <p><a href='#vantagens'>Vantagens</a></p>
   <p><a href='#docs'>Docs</a></p>
   </>
 )
@@ -21,7 +20,7 @@ const Navbar = () => {
 
           <div className='talk-hub__navbar-links'>
               <div className='talk-hub__navbar-links_logo'>
-                  <div className='logo'><LiveTvOutlinedIcon /></div>
+                  <div className='logo'><LiveTvOutlinedIcon style={{ fontSize: '50' }} /></div>
                   <h1>IPTV Club</h1>
               </div>
 

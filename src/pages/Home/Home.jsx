@@ -1,4 +1,4 @@
-import { Navbar, Hero } from '../../components/export/export';
+import { Navbar, Hero, Brand, Pricing } from '../../components/export/export';
 import './home.css';
 
 const Home = () => {
@@ -6,6 +6,8 @@ const Home = () => {
     <div className='home'>
       <Navbar />
       <Hero />
+      <Brand/>
+      <Pricing />
     </div>
   )
 }

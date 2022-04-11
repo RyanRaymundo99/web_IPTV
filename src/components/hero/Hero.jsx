@@ -2,7 +2,7 @@ import './hero.css';
 
 const Hero = () => {
   return (
-    <div className='talk-hub__header' id='Chat'>
+    <div className='talk-hub__header' id='home'>
         <div className='talk-hub__header-content'>
             <h4>ENTRETENIMENTO PARA TODA A FAMÍLIA</h4>
 
