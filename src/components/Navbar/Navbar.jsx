@@ -21,7 +21,7 @@ const Navbar = () => {
           <div className='talk-hub__navbar-links'>
               <div className='talk-hub__navbar-links_logo'>
                   <div className='logo'><LiveTvOutlinedIcon style={{ fontSize: '50' }} /></div>
-                  <h1>IPTV Club</h1>
+                  <h1>CINE Club</h1>
               </div>
 
               <div className='talk-hub__navbar-links_container'>
