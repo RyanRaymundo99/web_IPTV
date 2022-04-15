@@ -16,7 +16,7 @@ const Advantages = () => {
     </div>
     <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
       <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-orange-500 mb-5 flex-shrink-1">
+        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-orange-400 mb-5 flex-shrink-1">
           <ContactMailIcon style={{ fontSize: 53 }}/>
         </div>
         <div class="flex-grow">
@@ -25,7 +25,7 @@ const Advantages = () => {
         </div>
       </div>
       <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-orange-500 mb-5 flex-shrink-0">
+        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-orange-400 mb-5 flex-shrink-0">
           <QueryBuilderOutlined style={{ fontSize: 53 }}/>
         </div>
         <div class="flex-grow">
@@ -34,7 +34,7 @@ const Advantages = () => {
         </div>
       </div>
       <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-orange-500 mb-5 flex-shrink-0">
+        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-orange-400 mb-5 flex-shrink-0">
           <PaidOutlined style={{ fontSize: 53 }} />
         </div>
         <div class="flex-grow">
@@ -43,7 +43,7 @@ const Advantages = () => {
         </div>
       </div>
     </div>
-    <button class="flex mx-auto mt-16 text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Continuar lendo</button>
+    <button class="flex mx-auto mt-16 text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg">Continuar lendo</button>
   </div>
  </section>
     </div>
