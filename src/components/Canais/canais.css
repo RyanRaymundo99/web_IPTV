@@ -33,7 +33,7 @@
     text-align: left;
 }
 
-.gradient__text {
+.gradient__text-canais {
     background: -webkit-linear-gradient(to right, #FF4820 0%, #4A56FF 52%, #FF4820 100%);
     background: -moz-linear-gradient(to right, #FF4820 0%, #4A56FF 52%, #FF4820 100%);
     background: linear-gradient(to right, #FF4820 0%, #4A56FF 52%, #FF4820 100%);
