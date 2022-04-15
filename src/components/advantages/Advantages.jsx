@@ -5,7 +5,7 @@ import './advantages.css'
 const Advantages = () => {
   return (
     <div>
-      <section class="text-gray-600 body-font" id='vantagens'>
+      <section className="text-gray-600 body-font" id='vantagens'>
   <div class="container px-5 py-24 mx-auto">
     <div class="text-center mb-20">
       <h1 className='gradient__text'>Vantagens</h1>
