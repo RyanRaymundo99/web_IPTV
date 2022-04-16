@@ -1,14 +1,15 @@
 import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
 import LiveTvOutlinedIcon from '@mui/icons-material/LiveTvOutlined';
 import {FiMenu, FiX} from 'react-icons/fi';
 import './navbar.css';
 
 const Menu = () => (
   <>
-  <p><a href='#home'>Home</a></p>
-  <p><a href='#pricing'>Planos</a></p>
-  <p><a href='#canais'>Vantagens</a></p>
-  <p><a href='#docs'>Docs</a></p>
+  <Link to="/"><p><a>Home</a></p></Link>
+  <p><a href='/#pricing'>Planos</a></p>
+  <p><a href='/#canais'>Vantagens</a></p>
+  <Link to="/Docs"> <p><a>Docs</a></p></Link>
   </>
 )
 
