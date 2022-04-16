@@ -9,7 +9,7 @@ const Menu = () => (
   <Link to="/"><p><a>Home</a></p></Link>
   <p><a href='/#pricing'>Planos</a></p>
   <p><a href='/#canais'>Vantagens</a></p>
-  <Link to="/Docs"> <p><a>Docs</a></p></Link>
+  <Link to="/Docs"> <p><a>Documentação</a></p></Link>
   </>
 )
 
