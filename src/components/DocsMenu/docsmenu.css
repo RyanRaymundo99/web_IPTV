@@ -10,6 +10,10 @@ body {
   background: #ffffff;
 }
 
+.docs-menu {
+  padding: 4rem;
+}
+
 .navMenu {
   position: absolute;
   top: 20%;
@@ -36,4 +40,27 @@ body {
 
 .navMenu a:hover {
   color: #FF4820;
+}
+
+@media screen and (max-width: 550px) {
+
+  .docs-menu {
+    padding: 1px;
+  }
+
+  .navMenu {
+    padding-top: 200px;
+    padding-bottom: 10px;
+    position: relative;
+    display: flex;
+    line-height: 15px;
+    font-size: 13px;
+  }
+
+  .navMenu {
+    display: inline-block;
+    margin-right: 2px;
+    width: 100%;
+  }
+
 }

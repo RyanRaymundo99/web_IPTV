@@ -10,17 +10,19 @@ import { MdDesktopMac } from "react-icons/md";
 function DocsMenu() {
   return (
     <div className='docs-menu__header'>
+      <div className='docs-menu'>
         <nav className="body-font navMenu">
             <a href="#Tvs">Smart TV</a>
             <a href="#others">Pc & SmartPhone</a>
             <a href="#instalation">Instalacao</a>
         </nav>
+      </div>  
 
 
         <div id="Tvs">
           <div class="p-10 bg-white dark:bg-white">
             <section class="text-white-100 body-font">
-              <div class="container px-5 py-10 mx-auto">
+              <div class="container px-5 py-5 mx-auto">
                 <div class="flex flex-col text-center w-full mb-10">
                   <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Smart TVs</h1>
                 </div>
