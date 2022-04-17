@@ -8,7 +8,7 @@ const Hero = () => {
 
             <h1> ASSISTA NA SMART TV, PC, TV BOX E CELULARES</h1>
 
-            <p>A possibilidade de assistir seu programa de TV em qualquer lugar, e em qualquer dispositivo com acesso a internet (computadores, TV smart, TV BOX, ANDROID, IOS (celulares e tabletes), VIDEOGAME XBOX ONE E PLAYSTATION 4 não ficando preso a uma instalação de antena ou cabo. Com a qualidade ainda superior aos sistemas convencionais.</p>
+            <p>A possibilidade de assistir seu programa de TV em qualquer lugar, e em qualquer dispositivo com acesso a internet computadores, TV smart, TV BOX, ANDROID, IOS, não ficando preso a uma instalação de antena ou cabo. Com a qualidade ainda superior aos sistemas convencionais.</p>
 
             <a className='header_button' href="#canais">Saiba mais</a>
         </div>
