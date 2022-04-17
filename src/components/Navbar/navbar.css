@@ -48,7 +48,6 @@
 .talk-hub__navbar-links_logo h1 {
     color: white;
 
-    font-family: var(--font-family) ;
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -79,7 +78,6 @@
 .download_button p,
 .talk-hub__navbar-menu_container p {
     color: #fff;
-    font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
@@ -97,7 +95,6 @@
     padding: 0.5rem 1rem;
     color: #fff;
     background: #FF4820;
-    font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
