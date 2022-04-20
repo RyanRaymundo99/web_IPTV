@@ -32,7 +32,7 @@ const Footer = () => {
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">DOCUMENTACAO</h2>
+        <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">DOCUMENTAÇÃO</h2>
         <nav class="list-none mb-10">
           <li>
             <a href='/Docs' class="text-gray-400 hover:text-white">SmartPhones & Pcs</a>
