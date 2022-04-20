@@ -17,15 +17,15 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
 
   return (
-      <div className='talk-hub__navbar'>
+      <div className='cine-club__navbar'>
 
-          <div className='talk-hub__navbar-links'>
-              <div className='talk-hub__navbar-links_logo'>
+          <div className='cine-club__navbar-links'>
+              <div className='cine-club__navbar-links_logo'>
                   <div className='logo'><LiveTvOutlinedIcon style={{ fontSize: '50' }} /></div>
                   <h1>CINE Club</h1>
               </div>
 
-              <div className='talk-hub__navbar-links_container'>
+              <div className='cine-club__navbar-links_container'>
                  <Menu />
               </div>
               
@@ -35,14 +35,14 @@ const Navbar = () => {
             <p><a href="">contato</a></p>
           </div>
 
-          <div className='talk-hub__navbar-menu'>
+          <div className='cine-club__navbar-menu'>
               {toggleMenu
                   ?<FiX color="#FF4820" size="27" onClick={() => setToggleMenu(false)}/>
                   :<FiMenu color="#FF4820" size="27" onClick={() => setToggleMenu(true)}/>
               }
               {toggleMenu && (
-                  <div className='talk-hub__navbar-menu_container scale-up-center'>
-                      <div className='talk-hub__navbar-menu_container-links'>
+                  <div className='cine-club__navbar-menu_container scale-up-center'>
+                      <div className='cine-club__navbar-menu_container-links'>
                           <Menu />
                       </div>
                   </div>

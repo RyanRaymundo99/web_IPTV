@@ -1,5 +1,3 @@
-import './footer.css';
-
 import LiveTvOutlinedIcon from '@mui/icons-material/LiveTvOutlined';
 import GitHubIcon from '@mui/icons-material/GitHub';
 

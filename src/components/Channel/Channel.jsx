@@ -1,4 +1,3 @@
-import './channel.css';
 import bg from '../../assets/bg.jpeg';
 
 const Channel = () => {
