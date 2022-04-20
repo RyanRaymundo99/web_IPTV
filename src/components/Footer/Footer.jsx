@@ -35,13 +35,13 @@ const Footer = () => {
         <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">DOCUMENTACAO</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-400 hover:text-white">SmartPhones & Pcs</a>
+            <a href='#' class="text-gray-400 hover:text-white">SmartPhones & Pcs</a>
           </li>
           <li>
-            <a class="text-gray-400 hover:text-white">Instalacao</a>
+            <a href='#' class="text-gray-400 hover:text-white">Instalacao</a>
           </li>
           <li>
-            <a class="text-gray-400 hover:text-white">TVs</a>
+            <a href='#' class="text-gray-400 hover:text-white">TVs</a>
           </li>
         </nav>
       </div>
