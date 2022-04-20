@@ -24,7 +24,7 @@ function DocsMenu() {
             <section class="text-white-100 body-font">
               <div class="container px-5 py-5 mx-auto">
                 <div class="flex flex-col text-center w-full mb-10">
-                  <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Smart TVs</h1>
+                  <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Compativel com Smart TVs</h1>
                 </div>
                 <div class="flex flex-wrap -m-4 text-center">
                   <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
@@ -72,7 +72,7 @@ function DocsMenu() {
          <section class="text-white-100 body-font">
               <div class="container px-5 py-10 mx-auto">
                 <div class="flex flex-col text-center w-full mb-10">
-                  <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">PCs & Smartphones</h1>
+                  <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Compativel om PCs & Smartphones</h1>
                 </div>
                 <div class="flex flex-wrap -m-4 text-center">
                   <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
