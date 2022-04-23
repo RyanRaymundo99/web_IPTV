@@ -27,7 +27,7 @@ const Footer = () => {
             <a href='#Advantages' class="text-gray-400 hover:text-white">Vantagens</a>
           </li>
           <li>
-            <a href='#test' class="text-gray-400 hover:text-white">Teste gratis</a>
+            <a href='#test' class="text-gray-400 hover:text-white">teste grátis</a>
           </li>
         </nav>
       </div>
@@ -38,7 +38,7 @@ const Footer = () => {
             <a href='/Docs' class="text-gray-400 hover:text-white">SmartPhones & Pcs</a>
           </li>
           <li>
-            <a href='/Docs' class="text-gray-400 hover:text-white">Instalacao</a>
+            <a href='/Docs' class="text-gray-400 hover:text-white">instalação</a>
           </li>
           <li>
             <a href='/Docs' class="text-gray-400 hover:text-white">TVs</a>
