@@ -11,7 +11,7 @@ const Hero = () => {
 
             <p>A possibilidade de assistir seu programa de TV em qualquer lugar, e em qualquer dispositivo com acesso a internet computadores, TV smart, TV BOX, ANDROID, IOS, não ficando preso a uma instalação de antena ou cabo. Com a qualidade ainda superior aos sistemas convencionais.</p>
 
-            <a className='header_button' href="#channels">Saiba mais</a>
+            <a className='header_button' href="#Channels">Saiba mais</a>
         </div>
 
         <div className='zap'>

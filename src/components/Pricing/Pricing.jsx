@@ -8,8 +8,8 @@ const Pricing = () => {
     <div className="flex flex-col text-center w-full mb-20">
       <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">Planos</h1>
       <p className="lg:w-2/3 mx-auto leading-relaxed text-base">pague menos com os planos mensais sem contrato</p>
-      <div className="flex mx-auto border-2 border-orange-500 rounded overflow-hidden mt-6">
-        <button className="py-1 px-4 button__bg text-white">Mensal e Anual</button>
+      <div className="flex mx-auto rounded overflow-hidden mt-6">
+        <p className="py-1 px-4 button__bg text-white">Mensal e Anual</p>
       </div>
     </div>
     <div className="flex flex-wrap -m-4">
@@ -137,7 +137,7 @@ const Pricing = () => {
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </button>
-          <p className="text-xs text-gray-500 mt-3">Economize R$15 em 3 meses.</p>
+          <p className="text-xs text-gray-500 mt-3">O atendimento é livre de taxas.</p>
         </div>
       </div>
       <div className="p-4 xl:w-1/4 md:w-1/2 w-full">

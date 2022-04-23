@@ -9,7 +9,7 @@ const Channel = () => {
                     <p class="text-sm mt-2 text-white mb-8 w-full">+80 mil conteudos</p>    
                     <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium gradient__text">Oferecemos todos os Canais Abertos e Fechados, sem travamentos e em ótimas qualidades.</h1>
                     <p class="mb-8 leading-relaxed">Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de títulos em 4K não para de crescer. Além disso, para a felicidade de todos, Você pode configurar seu login em diversos dispositivos, mas para que consiga assistir simultaneamente, é preciso que você adquira o ponto extra. Se alguma dúvida permanecer, nos contate</p>
-                    <a href='#advantages' class="text-sm mt-2 text-orange-500 mb-5 w-full font-semibold">Continuar Lendo</a>
+                    <a href='#Advantages' class="text-sm mt-2 text-orange-500 mb-5 w-full font-semibold">Continuar Lendo</a>
                     </div>
                     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                     <img class="object-cover object-center rounded" alt="hero" src={bg}/>

@@ -1,5 +1,6 @@
 import LiveTvOutlinedIcon from '@mui/icons-material/LiveTvOutlined';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -24,7 +25,7 @@ const Footer = () => {
             <a href='#Pricing' class="text-gray-400 hover:text-white">Planos</a>
           </li>
           <li>
-            <a href='#Advantages' class="text-gray-400 hover:text-white">Vantagens</a>
+            <a href='#Channels' class="text-gray-400 hover:text-white">Vantagens</a>
           </li>
           <li>
             <a href='#test' class="text-gray-400 hover:text-white">teste grátis</a>
@@ -35,13 +36,13 @@ const Footer = () => {
         <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">DOCUMENTAÇÃO</h2>
         <nav class="list-none mb-10">
           <li>
-            <a href='/Docs' class="text-gray-400 hover:text-white">SmartPhones & Pcs</a>
+          <Link to="/Docs"> <a class="text-gray-400 hover:text-white">Pc & SmartPhone</a> </Link>
           </li>
           <li>
-            <a href='/Docs' class="text-gray-400 hover:text-white">instalação</a>
+          <Link to="/Docs"> <a class="text-gray-400 hover:text-white">Instalação</a> </Link>
           </li>
           <li>
-            <a href='/Docs' class="text-gray-400 hover:text-white">TVs</a>
+          <Link to="/Docs"> <a class="text-gray-400 hover:text-white">Smart TV</a> </Link>
           </li>
         </nav>
       </div>
