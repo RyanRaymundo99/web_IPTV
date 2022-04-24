@@ -15,7 +15,7 @@ const Hero = () => {
         </div>
 
         <div className='zap'>
-          <a href="https://api.whatsapp.com/message/MHFFSJY36MWCP1?autoload=1&app_absent=0" class="float">
+          <a href="https://wa.me/message/MHFFSJY36MWCP1" class="float">
             <WhatsAppIcon style={{ fontSize: 35 }} className='my-float'/>
           </a>
         </div>
