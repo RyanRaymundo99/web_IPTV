@@ -17,7 +17,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
 
   return (
-      <div className='cine-club__navbar'>
+      <div className='cine-club__navbar gradient__bg'>
 
           <div className='cine-club__navbar-links'>
               <div className='cine-club__navbar-links_logo'>
