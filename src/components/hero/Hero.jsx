@@ -1,7 +1,11 @@
 import './hero.css';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
+
   return (
     <div className='cine-club__header' id='home'>
         <div className='cine-club__header-content'>
@@ -15,8 +19,22 @@ const Hero = () => {
         </div>
 
         <div className='zap'>
-          <a href="https://wa.me/message/MHFFSJY36MWCP1" class="float">
-            <WhatsAppIcon style={{ fontSize: 35 }} className='my-float'/>
+          <a class="float">
+           {toggleMenu
+            ?<WhatsAppIcon style={{ fontSize: 35 }} className='my-float' onClick={() => setToggleMenu(false)} />
+            :<WhatsAppIcon style={{ fontSize: 35 }} className='my-float' onClick={() => setToggleMenu(true)} />
+           }
+           {toggleMenu && (
+              <div className='cine-club__navbar-menu_container-zap scale-up-center'>
+                  <div className='cine-club__navbar-menu_container-links-zap'>
+                  <>
+                  <Link to="/"><p><a>Matutino</a></p></Link>
+                  <Link to="/Docs"> <p><a>Vestpertino</a></p></Link>
+                  <Link to="/Docs"> <p><a>Noturno</a></p></Link>
+                  </>
+                  </div>
+              </div>
+           )}
           </a>
         </div>
     </div> 
