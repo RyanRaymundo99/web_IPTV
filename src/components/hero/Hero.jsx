@@ -1,5 +1,6 @@
 import './hero.css';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import { BsMessenger } from "react-icons/bs";
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -27,11 +28,11 @@ const Hero = () => {
            {toggleMenu && (
               <div className='cine-club__navbar-menu_container-zap scale-up-center'>
                   <div className='cine-club__navbar-menu_container-links-zap'>
-                  <>
-                  <Link to="/"><p><a>Matutino</a></p></Link>
-                  <Link to="/Docs"> <p><a>Vestpertino</a></p></Link>
-                  <Link to="/Docs"> <p><a>Noturno</a></p></Link>
-                  </>
+                    <ul className='zap-icons'>
+                        <li><WhatsAppIcon className='zap-icon-zap'/><Link to="/"><a>Matutino</a></Link></li>
+                        <li><BsMessenger className='zap-icon'/><Link to="/Docs"><a>Vestpertino</a></Link></li>
+                        <li><BsMessenger className='zap-icon'/><Link to="/Docs"><a>Noturno</a></Link></li>
+                    </ul>
                   </div>
               </div>
            )}
