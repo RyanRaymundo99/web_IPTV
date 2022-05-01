@@ -29,9 +29,9 @@ const Hero = () => {
               <div className='cine-club__navbar-menu_container-zap scale-up-center'>
                   <div className='cine-club__navbar-menu_container-links-zap'>
                     <ul className='zap-icons'>
-                        <li><WhatsAppIcon className='zap-icon-zap'/><Link to="/"><a>Matutino</a></Link></li>
-                        <li><BsMessenger className='zap-icon'/><Link to="/Docs"><a>Vestpertino</a></Link></li>
-                        <li><BsMessenger className='zap-icon'/><Link to="/Docs"><a>Noturno</a></Link></li>
+                        <li><WhatsAppIcon className='zap-icon-zap'/><a href='https://wa.me/message/MHFFSJY36MWCP1'>Matutino</a></li>
+                        <li><BsMessenger className='zap-icon'/><a href='https://wa.me/message/MHFFSJY36MWCP1'>Vestpertino</a></li>
+                        <li><BsMessenger className='zap-icon'/><a href='https://wa.me/message/MHFFSJY36MWCP1'>Noturno</a></li>
                     </ul>
                   </div>
               </div>
