@@ -16,7 +16,7 @@ const Pricing = () => {
     <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
         <div className="h-full p-6 rounded-lg border-2 border-grey-500 flex flex-col relative overflow-hidden">
           <h1 className="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-            <span>R$25</span>
+            <span>R$35</span>
             <span className="text-lg ml-1 font-normal text-gray-500">/mensal</span>
           </h1>
           <p className="flex items-center text-gray-400 mb-2">
@@ -82,7 +82,7 @@ const Pricing = () => {
         <div className="h-full p-6 rounded-lg border-2 border-lime-500 flex flex-col relative overflow-hidden">
           <span className="bg-lime-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
           <h1 className="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-            <span>R$70</span>
+            <span>R$80</span>
             <span className="text-lg ml-1 font-normal text-gray-500">/trimestral</span>
           </h1>
           <p className="flex items-center text-gray-400 mb-2">
@@ -148,7 +148,7 @@ const Pricing = () => {
         <div className="h-full p-6 rounded-lg border-2 border-blue-400 flex flex-col relative overflow-hidden">
           <span className="bg-blue-400 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">MAIS COMPRADO</span>
           <h1 className="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-            <span>$140</span>
+            <span>$150</span>
             <span className="text-lg ml-1 font-normal text-gray-500">/semestral</span>
           </h1>
           <p className="flex items-center text-gray-400 mb-2">
