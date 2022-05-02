@@ -25,7 +25,7 @@ const Freetrial = () => {
                   </div>
                   <input type='submit' value="Enviar" class="text-white button__bg border-0 py-2 px-8 focus:outline-none hover:bg-orange-800 rounded text-lg"/>
 
-                  <p class="text-xs mt-3">A amostra sera enviada em ate 24h.</p>
+                  <p class="text-xs mt-3">A amostra será enviada em ate 24h.</p>
                   </div>
             </div>   
       </form>

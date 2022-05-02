@@ -1,0 +1,11 @@
+.apps{
+    background-image: url("https://meuscript.site/wp-content/uploads/2020/12/Screenshot_20210407-035745_XCIPTV501-CV702-1024x461.png"), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.app-logo {
+    height: 400px;
+    width: 400px;
+}

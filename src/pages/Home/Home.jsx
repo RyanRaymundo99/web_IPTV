@@ -1,4 +1,4 @@
-import { Navbar, Pricing, Advantages, Footer, Channel, Freetrial } from '../../components/export';
+import { Navbar, Pricing, Advantages, Footer, Channel, Apps, Freetrial } from '../../components/export';
 import Hero from '../../components/hero/Hero';
 
 const Home = () => {
@@ -8,6 +8,7 @@ const Home = () => {
       <Hero/>
       <Pricing />
       <Channel/>
+      <Apps/>
       <Advantages />
       <Freetrial/>
       <Footer/>
