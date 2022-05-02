@@ -68,11 +68,13 @@ const Pricing = () => {
               </svg>
             </span>Suporte 24h/7
           </p>
+          <a href="https://wa.me/message/MHFFSJY36MWCP1">
           <button className="flex items-center mt-auto text-white bg-gray-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-400 rounded">Comprar
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </button>
+          </a>
           <p className="text-xs text-gray-500 mt-3">O atendimento é livre de taxas.</p>
         </div>
       </div>
@@ -132,11 +134,13 @@ const Pricing = () => {
               </svg>
             </span>Suporte 24h/7
           </p>
+          <a href="https://wa.me/message/MHFFSJY36MWCP1">
           <button className="flex items-center mt-auto text-white bg-lime-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-lime-400 rounded">Comprar
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </button>
+          </a>
           <p className="text-xs text-gray-500 mt-3">O atendimento é livre de taxas.</p>
         </div>
       </div>
@@ -196,11 +200,13 @@ const Pricing = () => {
               </svg>
             </span>Suporte 24h/7
           </p>
+          <a href="https://wa.me/message/MHFFSJY36MWCP1">
           <button className="flex items-center mt-auto text-white bg-blue-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-700 rounded">Comprar
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </button>
+          </a>
           <p className="text-xs text-gray-500 mt-3">O atendimento é livre de taxas.</p>
         </div>
       </div>
@@ -260,11 +266,13 @@ const Pricing = () => {
               </svg>
             </span>Suporte 24h/7
           </p>
+          <a href="https://wa.me/message/MHFFSJY36MWCP1">
           <button className="flex items-center mt-auto text-white bg-purple-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-purple-400 rounded">Comprar
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </button>
+          </a>
           <p className="text-xs text-gray-500 mt-3">O atendimento é livre de taxas.</p>
         </div>
       </div>

@@ -28,11 +28,9 @@ const Hero = () => {
            {toggleMenu && (
               <div className='cine-club__navbar-menu_container-zap scale-up-center'>
                   <div className='cine-club__navbar-menu_container-links-zap'>
-                    <ul className='zap-icons'>
-                        <li><WhatsAppIcon className='zap-icon-zap'/><a href='https://wa.me/message/MHFFSJY36MWCP1'>Matutino</a></li>
-                        <li><WhatsAppIcon className='zap-icon'/><a href='https://wa.me/message/MHFFSJY36MWCP1'>Vestpertino</a></li>
-                        <li><WhatsAppIcon className='zap-icon'/><a href='https://wa.me/message/MHFFSJY36MWCP1'>Noturno</a></li>
-                    </ul>
+                       <a href='https://wa.me/message/MHFFSJY36MWCP1'>Matutino</a>
+                       <a href='https://wa.me/message/MHFFSJY36MWCP1'>Vestpertino</a>
+                       <a href='https://wa.me/message/MHFFSJY36MWCP1'>Noturno</a>
                   </div>
               </div>
            )}

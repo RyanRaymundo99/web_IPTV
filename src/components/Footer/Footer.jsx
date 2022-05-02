@@ -10,9 +10,9 @@ const Footer = () => {
     <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
         <LiveTvOutlinedIcon style={{ fontSize: '50' }} />
-        <span class="ml-3 text-xl">CINE Club</span>
+        <span class="ml-3 text-xl">CINE TV</span>
       </a>
-      <p class="mt-2 text-sm text-gray-500">O melhor site de IPTV com compromisso</p>
+      <p class="mt-2 text-sm text-gray-500">Assista Filmes e Series em HD e 4K sem travamento</p>
     </div>
     <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -51,7 +51,7 @@ const Footer = () => {
   </div>
   <div class="bg-gray-800 bg-opacity-75">
     <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-      <p class="text-gray-400 text-sm text-center sm:text-left">© 2022 CINE Club —
+      <p class="text-gray-400 text-sm text-center sm:text-left">© 2022 CINE TV —
         <a href="https://github.com/RyanRaymundo99" rel="noopener noreferrer" class="text-gray-500 ml-1" target="_blank">Created with love By Ryan Raymundo99</a>
       </p>
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">

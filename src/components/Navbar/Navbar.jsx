@@ -22,7 +22,7 @@ const Navbar = () => {
           <div className='cine-club__navbar-links'>
               <div className='cine-club__navbar-links_logo'>
                   <div className='logo'><LiveTvOutlinedIcon style={{ fontSize: '50' }} /></div>
-                  <h1>CINE Club</h1>
+                  <h1>CINE TV</h1>
               </div>
 
               <div className='cine-club__navbar-links_container'>
@@ -32,7 +32,7 @@ const Navbar = () => {
           </div>
 
           <div className='download_button'>
-            <p><a href="">contato</a></p>
+            <p><a href="https://wa.me/message/MHFFSJY36MWCP1">contato</a></p>
           </div>
 
           <div className='cine-club__navbar-menu'>
