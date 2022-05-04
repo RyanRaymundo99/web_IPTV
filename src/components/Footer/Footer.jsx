@@ -39,9 +39,6 @@ const Footer = () => {
           <Link to="/Docs"> <a class="text-gray-400 hover:text-white">Pc & SmartPhone</a> </Link>
           </li>
           <li>
-          <Link to="/Docs"> <a class="text-gray-400 hover:text-white">Instalação</a> </Link>
-          </li>
-          <li>
           <Link to="/Docs"> <a class="text-gray-400 hover:text-white">Smart TV</a> </Link>
           </li>
         </nav>

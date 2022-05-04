@@ -14,11 +14,8 @@ function DocsMenu() {
         <nav className="body-font navMenu">
             <a href="#Tvs">Smart TV</a>
             <a href="#others">Pc & SmartPhone</a>
-            <a href="#instalation">Instalacao</a>
         </nav>
       </div>  
-
-
         <div id="Tvs">
           <div class="p-10 bg-white dark:bg-white">
             <section class="text-white-100 body-font">
