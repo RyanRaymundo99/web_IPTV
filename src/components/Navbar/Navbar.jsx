@@ -1,15 +1,16 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import LiveTvOutlinedIcon from '@mui/icons-material/LiveTvOutlined';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import {FiMenu, FiX} from 'react-icons/fi';
 import './navbar.css';
 
 const Menu = () => (
   <>
   <Link to="/"><p><a>Home</a></p></Link>
-  <p><a href='/#Pricing'>Planos</a></p>
-  <p><a href='/#Channels'>Vantagens</a></p>
-  <Link to="/Docs"> <p><a>Documentação</a></p></Link>
+  <p><a href='/#Pricing'>Pricing</a></p>
+  <p><a href='/#Channels'>Advantages</a></p>
+  <Link to="/Docs"> <p><a>Docs</a></p></Link>
   </>
 )
 
@@ -31,9 +32,10 @@ const Navbar = () => {
               
           </div>
 
-          <div className='download_button'>
-            <p><a href="https://wa.me/message/MHFFSJY36MWCP1">contato</a></p>
-          </div>
+          <button type='button' className='cart_button'>
+            <ShoppingCartIcon style={{ fontSize: 40 }}/>
+            <spam className="cart-item-quantity">0</spam>
+          </button>
 
           <div className='cine-club__navbar-menu'>
               {toggleMenu

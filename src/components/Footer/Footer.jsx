@@ -12,7 +12,7 @@ const Footer = () => {
         <LiveTvOutlinedIcon style={{ fontSize: '50' }} />
         <span class="ml-3 text-xl">CINE TV</span>
       </a>
-      <p class="mt-2 text-sm text-gray-500">Assista Filmes e Series em HD e 4K sem travamento</p>
+      <p class="mt-2 text-sm text-gray-500">Watch Movies and Series in HD and 4K without loading scrrens</p>
     </div>
     <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -22,18 +22,18 @@ const Footer = () => {
             <a href='#home' class="text-gray-400 hover:text-white">Home</a>
           </li>
           <li>
-            <a href='#Pricing' class="text-gray-400 hover:text-white">Planos</a>
+            <a href='#Pricing' class="text-gray-400 hover:text-white">Pricing</a>
           </li>
           <li>
-            <a href='#Channels' class="text-gray-400 hover:text-white">Vantagens</a>
+            <a href='#Channels' class="text-gray-400 hover:text-white">Advantages</a>
           </li>
           <li>
-            <a href='#test' class="text-gray-400 hover:text-white">teste grátis</a>
+            <a href='#test' class="text-gray-400 hover:text-white">Fre trial</a>
           </li>
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">DOCUMENTAÇÃO</h2>
+        <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">DOCS</h2>
         <nav class="list-none mb-10">
           <li>
           <Link to="/Docs"> <a class="text-gray-400 hover:text-white">Pc & SmartPhone</a> </Link>

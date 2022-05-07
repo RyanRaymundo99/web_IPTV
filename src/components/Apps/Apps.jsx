@@ -7,8 +7,8 @@ const Apps = () => {
   <div class="container mx-auto flex flex-col px-5 py-5 justify-center items-center">
     <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://blueplay.me/wp-content/uploads/2021/02/cel-1433x1536.png"/>
     <div class="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Assista Onde Quiser</h1>
-      <p class="mb-8 leading-relaxed">A Cine TV oferece um aplicativo totalmente exclusivo para você. Basta baixa-lo e assistir tudo o que quiser e quando quiser. Nosso App oferece todos os tipos de Séries, basta escolher qual quer assistir.</p>
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Watch Wherever You Want</h1>
+      <p class="mb-8 leading-relaxed">Cine TV offers a totally exclusive app for you. Just download it and watch whatever you want and whenever you want. Our App offers all types of Series, just choose which one you want to watch.</p>
       <div class="flex text-gray-300">
         <a href="https://play.google.com/store/apps/details?id=com.nathnetwork.xciptv&hl=en&gl=US">
         <button class="bg-gray-800 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-700 hover:text-white focus:outline-none">

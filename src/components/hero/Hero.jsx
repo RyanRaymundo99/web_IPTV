@@ -10,13 +10,13 @@ const Hero = () => {
   return (
     <div className='cine-club__header' id='home'>
         <div className='cine-club__header-content'>
-            <h4>ENTRETENIMENTO PARA TODA A FAMÍLIA</h4>
+            <h4>ENTERTAINMENT FOR THE WHOLE FAMILY</h4>
 
-            <h1> ASSISTA NA SMART TV, PC, TV BOX E CELULARES</h1>
+            <h1> WATCH ON SMART TV, PC, TV BOX AND CELL PHONES</h1>
 
-            <p>A possibilidade de assistir seu programa de TV em qualquer lugar, e em qualquer dispositivo com acesso a internet computadores, TV smart, TV BOX, ANDROID, IOS, não ficando preso a uma instalação de antena ou cabo. Com a qualidade ainda superior aos sistemas convencionais.</p>
+            <p>The possibility to watch your TV show anywhere, and on any device with internet access computers, smart TV, TV BOX, ANDROID, IOS, not being tied to an antenna or cable installation. With the quality even superior to conventional systems.The possibility to watch your TV show anywhere, and on any device with internet access computers, smart TV, TV BOX, ANDROID, IOS, not being tied to an antenna or cable installation.</p>
 
-            <a className='header_button' href="#Channels">Saiba mais</a>
+            <a className='header_button' href="#Channels">Keep reading</a>
         </div>
 
         <div className='zap'>
@@ -28,9 +28,9 @@ const Hero = () => {
            {toggleMenu && (
               <div className='cine-club__navbar-menu_container-zap scale-up-center'>
                   <div className='cine-club__navbar-menu_container-links-zap'>
-                       <a href='https://wa.me/message/MHFFSJY36MWCP1'>Matutino</a>
-                       <a href='https://wa.me/message/MHFFSJY36MWCP1'>Vestpertino</a>
-                       <a href='https://wa.me/message/MHFFSJY36MWCP1'>Noturno</a>
+                       <a href='https://wa.me/message/MHFFSJY36MWCP1'>Morning</a>
+                       <a href='https://wa.me/message/MHFFSJY36MWCP1'>Evening</a>
+                       <a href='https://wa.me/message/MHFFSJY36MWCP1'>Night</a>
                   </div>
               </div>
            )}

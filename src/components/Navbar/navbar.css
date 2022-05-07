@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     color: white;
-    padding: 0.1rem 1rem;
+    padding: 0.1rem 1.5rem;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -50,16 +50,6 @@
     display: flex;
     flex-direction: row;
 }
-
-.download_button a {
-    padding: 4px;
-    color: white;
-    background-color: #FF4820;
-    height: 33px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
 
 .cine-club__navbar-links_container p,
 .download_button p,
@@ -138,6 +128,19 @@
     color: white;
 }
 
+.cart-item-quantity {
+  position: absolute;
+  font-size: 12px;
+  right: 11px;
+  color: #eee;
+  background-color: #f02d34;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: 600;
+}
+
 @media screen and (max-width: 1050px) {
     .cine-club__navbar-links_container {
         display: none;
@@ -160,7 +163,7 @@
     .cine-club__navbar {
         padding: 1rem 2rem;
     }
-    .download_button {
+    .cart_button {
         display: none;
     }
 }
@@ -170,7 +173,7 @@
         padding: 0 1rem;
     }
 
-    .download_button {
+    .cart_button {
         display: none;
     }
 
