@@ -128,19 +128,6 @@
     color: white;
 }
 
-.cart-item-quantity {
-  position: absolute;
-  font-size: 12px;
-  right: 11px;
-  color: #eee;
-  background-color: #f02d34;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  text-align: center;
-  font-weight: 600;
-}
-
 @media screen and (max-width: 1050px) {
     .cine-club__navbar-links_container {
         display: none;

@@ -1,6 +1,93 @@
+import { ConstructionOutlined } from "@mui/icons-material";
+import { loadStripe } from "@stripe/stripe-js";
 
+
+let stripePromise
+
+const getStripe = () => {
+  if (!stripePromise) {
+    stripePromise = loadStripe(process.env.REACT_APP_STRIPE_KEY);
+  }
+
+  return stripePromise;
+};
 
 const Pricing = () => {
+
+  const item = {
+    price: "price_1Kwu5qG9qsOXpOrw5M7OOpK2",
+    quantity: 1
+  };
+
+  const item2 = {
+    price: "price_1Kwv1CG9qsOXpOrwbI8aRRQQ",
+    quantity: 1
+  };
+
+  const item3 = {
+    price: "price_1Kwv9vG9qsOXpOrwBhxM5nAB",
+    quantity: 1
+  };
+
+  const item4 = {
+    price: "price_1KwvAoG9qsOXpOrwg7Qc7Jr5",
+    quantity: 1
+  };
+
+  const checkoutOptions = {
+    lineItems: [item],
+    mode: "payment",
+    successUrl: `${window.location.origin}/success`,
+    cancelUrl: `${window.location.origin}`
+  }
+  const checkoutOptions2 = {
+    lineItems: [item2],
+    mode: "payment",
+    successUrl: `${window.location.origin}/success`,
+    cancelUrl: `${window.location.origin}`
+  }
+  const checkoutOptions3 = {
+    lineItems: [item3],
+    mode: "payment",
+    successUrl: `${window.location.origin}/success`,
+    cancelUrl: `${window.location.origin}`
+  }
+  const checkoutOptions4 = {
+    lineItems: [item4],
+    mode: "payment",
+    successUrl: `${window.location.origin}/success`,
+    cancelUrl: `${window.location.origin}`
+  }
+
+  const redirectToCheckout = async () => {
+    console.log("redirectToCheckout")
+
+    const stripe = await getStripe()
+    const { error } = await stripe.redirectToCheckout(checkoutOptions)
+    console.log("stripe checkout error", error)
+  }
+  const redirectToCheckout2 = async () => {
+    console.log("redirectToCheckout")
+
+    const stripe = await getStripe()
+    const { error } = await stripe.redirectToCheckout(checkoutOptions2)
+    console.log("stripe checkout error", error)
+  }
+  const redirectToCheckout3 = async () => {
+    console.log("redirectToCheckout")
+
+    const stripe = await getStripe()
+    const { error } = await stripe.redirectToCheckout(checkoutOptions3)
+    console.log("stripe checkout error", error)
+  }
+  const redirectToCheckout4 = async () => {
+    console.log("redirectToCheckout")
+
+    const stripe = await getStripe()
+    const { error } = await stripe.redirectToCheckout(checkoutOptions4)
+    console.log("stripe checkout error", error)
+  }
+
   return (
     <div className='pricing' id='Pricing'>
         <section className="text-gray-300 bg-gray-900 body-font overflow-hidden">
@@ -68,13 +155,11 @@ const Pricing = () => {
                   </svg>
                 </span>Support 24h/7
               </p>
-              <a href="https://wa.me/message/MHFFSJY36MWCP1">
-              <button className="flex items-center mt-auto text-white bg-gray-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-400 rounded">Sign up
+              <button className="flex items-center mt-auto text-white bg-gray-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-400 rounded" onClick={redirectToCheckout}>Sign up
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
               </button>
-              </a>
               <p className="text-xs text-gray-500 mt-3">Customer service is fee-free.</p>
             </div>
           </div>
@@ -134,13 +219,11 @@ const Pricing = () => {
                   </svg>
                 </span>Support 24h/7
               </p>
-              <a href="https://wa.me/message/MHFFSJY36MWCP1">
-              <button className="flex items-center mt-auto text-white bg-lime-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-lime-400 rounded">Sign up
+              <button className="flex items-center mt-auto text-white bg-lime-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-lime-400 rounded" onClick={redirectToCheckout2}>Sign up
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
               </button>
-              </a>
               <p className="text-xs text-gray-500 mt-3">Customer service is fee-free.</p>
             </div>
           </div>
@@ -200,13 +283,11 @@ const Pricing = () => {
                   </svg>
                 </span>Support 24h/7
               </p>
-              <a href="https://wa.me/message/MHFFSJY36MWCP1">
-              <button className="flex items-center mt-auto text-white bg-blue-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-700 rounded">Sign up
+              <button className="flex items-center mt-auto text-white bg-blue-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-700 rounded" onClick={redirectToCheckout3}>Sign up
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
               </button>
-              </a>
               <p className="text-xs text-gray-500 mt-3">Customer service is fee-free.</p>
             </div>
           </div>
@@ -266,13 +347,11 @@ const Pricing = () => {
                   </svg>
                 </span>Support 24h/7
               </p>
-              <a href="https://wa.me/message/MHFFSJY36MWCP1">
-              <button className="flex items-center mt-auto text-white bg-purple-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-purple-400 rounded">Sign up
+              <button className="flex items-center mt-auto text-white bg-purple-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-purple-400 rounded" onClick={redirectToCheckout4}>Sign up
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
               </button>
-              </a>
               <p className="text-xs text-gray-500 mt-3">Customer service is fee-free.</p>
             </div>
           </div>

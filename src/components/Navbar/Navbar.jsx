@@ -34,7 +34,6 @@ const Navbar = () => {
 
           <button type='button' className='cart_button'>
             <ShoppingCartIcon style={{ fontSize: 40 }}/>
-            <spam className="cart-item-quantity">0</spam>
           </button>
 
           <div className='cine-club__navbar-menu'>

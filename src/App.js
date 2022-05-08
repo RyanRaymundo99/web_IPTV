@@ -1,3 +1,4 @@
+import "@stripe/stripe-js";
 import Home from './pages/Home/Home';
 import Docs from './pages/Docs/Docs'
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
