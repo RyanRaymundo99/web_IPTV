@@ -34,7 +34,7 @@ const Navbar = () => {
         
           <Link to="/Cart">        
           <button type='button' className='cart_button'>
-            <ShoppingCartIcon style={{ fontSize: 40 }}/>
+            <ShoppingCartIcon className='cart-icon'/>
           </button>
           </Link>
 
