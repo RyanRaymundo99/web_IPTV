@@ -1,4 +1,5 @@
 import mc from '../../assets/mc.webp';
+import './channel.css';
 
 const Channel = () => {
   return (
@@ -11,8 +12,8 @@ const Channel = () => {
                     <p class="mb-8 leading-relaxed">Enjoy the big screen on TV or watch on tablet, laptop, cell phone and other devices. Our selection of 4K titles continues to grow. Also, for everyone's happiness, you can configure your login on multiple devices, but in order to be able to watch simultaneously, you need to buy the extra point. If any doubts remain, please contact us.</p>
                     <a href='#Advantages' class="text-sm mt-2 text-orange-500 mb-5 w-full font-semibold">Continue Reading</a>
                     </div>
-                    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 channel_hero-img">
-                    <img class=" object-cover object-center rounded" alt="hero" src={mc}/>
+                    <div class="lg:max-w-lg lg:block lg:w-full md:w-1/2 w-5/6 channel-hero">
+                    <img class=" object-cover object-center rounded channel-hero" alt="hero" src={mc}/>
                     </div>
             </div>
         </section>

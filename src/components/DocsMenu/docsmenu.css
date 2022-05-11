@@ -53,13 +53,11 @@ body {
     padding-bottom: 10px;
     position: relative;
     display: flex;
-    line-height: 15px;
     font-size: 13px;
   }
 
   .navMenu {
     display: inline-block;
-    margin-right: 2px;
     width: 100%;
   }
 
