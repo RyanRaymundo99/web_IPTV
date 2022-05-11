@@ -128,10 +128,6 @@
     color: white;
 }
 
-.cart-icon{
-    font-size: 40;
-}
-
 @media screen and (max-width: 1050px) {
     .cine-club__navbar-links_container {
         display: none;
@@ -154,10 +150,6 @@
     .cine-club__navbar {
         padding: 1rem 2rem;
     }
-
-    .cart-icon{
-        font-size: 30;
-    }
 }
 
 @media screen and (max-width: 550px) {
@@ -171,9 +163,5 @@
 
     .cine-club__navbar-links_logo h1 {
         font-size: 15px;
-    }
-
-    .cart-icon{
-        font-size: 20;
     }
 }

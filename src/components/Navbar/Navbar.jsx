@@ -7,10 +7,10 @@ import './navbar.css';
 
 const Menu = () => (
   <>
-  <Link to="/"><p><a>Home</a></p></Link>
+  <Link to="/"><p>Home</p></Link>
   <p><a href='/#Pricing'>Pricing</a></p>
   <p><a href='/#Channels'>Advantages</a></p>
-  <Link to="/Docs"> <p><a>Docs</a></p></Link>
+  <Link to="/Docs"> <p>Docs</p></Link>
   </>
 )
 

@@ -1,4 +1,4 @@
-import bg from '../../assets/bg.jpeg';
+import mc from '../../assets/mc.webp';
 
 const Channel = () => {
   return (
@@ -12,7 +12,7 @@ const Channel = () => {
                     <a href='#Advantages' class="text-sm mt-2 text-orange-500 mb-5 w-full font-semibold">Continue Reading</a>
                     </div>
                     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 channel_hero-img">
-                    <img class=" object-cover object-center rounded" alt="hero" src={bg}/>
+                    <img class=" object-cover object-center rounded" alt="hero" src={mc}/>
                     </div>
             </div>
         </section>

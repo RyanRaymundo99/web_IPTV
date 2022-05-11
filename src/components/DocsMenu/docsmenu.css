@@ -11,7 +11,7 @@ body {
 }
 
 .docs-menu {
-  padding: 4rem;
+  padding: 2rem;
 }
 
 .navMenu {
@@ -49,7 +49,7 @@ body {
   }
 
   .navMenu {
-    padding-top: 200px;
+    padding-top: 50px;
     padding-bottom: 10px;
     position: relative;
     display: flex;
