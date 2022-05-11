@@ -5,3 +5,4 @@ export { default as Footer} from './Footer/Footer';
 export { default as Channel} from './Channel/Channel';
 export { default as Apps} from './Apps/Apps';
 export { default as Freetrial} from './Freetrial/Freetrial';
+export { default as SmallFooter} from './SmallFooter/SmallFooter';

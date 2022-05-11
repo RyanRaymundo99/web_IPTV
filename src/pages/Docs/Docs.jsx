@@ -1,4 +1,4 @@
-import { Navbar } from '../../components/export';
+import { Navbar, SmallFooter } from '../../components/export';
 import DocsMenu from '../../components/DocsMenu/DocsMenu';
 
 const Docs = () => {
@@ -7,6 +7,7 @@ const Docs = () => {
     <div className='docs'>
       <Navbar />
       <DocsMenu />
+      <SmallFooter/>
     </div>
   )
 }
