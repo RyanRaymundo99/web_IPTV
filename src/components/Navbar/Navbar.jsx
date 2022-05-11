@@ -31,10 +31,12 @@ const Navbar = () => {
               </div>
               
           </div>
-
+        
+          <Link to="/Cart">        
           <button type='button' className='cart_button'>
             <ShoppingCartIcon style={{ fontSize: 40 }}/>
           </button>
+          </Link>
 
           <div className='cine-club__navbar-menu'>
               {toggleMenu

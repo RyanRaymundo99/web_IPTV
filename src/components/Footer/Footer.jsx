@@ -12,7 +12,7 @@ const Footer = () => {
         <LiveTvOutlinedIcon style={{ fontSize: '50' }} />
         <span class="ml-3 text-xl">CINE TV</span>
       </a>
-      <p class="mt-2 text-sm text-gray-500">Watch Movies and Series in HD and 4K without loading scrrens</p>
+      <p class="mt-2 text-sm text-gray-500">Watch Movies and Series in HD and 4K without loading screens</p>
     </div>
     <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -28,7 +28,7 @@ const Footer = () => {
             <a href='#Channels' class="text-gray-400 hover:text-white">Advantages</a>
           </li>
           <li>
-            <a href='#test' class="text-gray-400 hover:text-white">Fre trial</a>
+            <a href='#test' class="text-gray-400 hover:text-white">Free trial</a>
           </li>
         </nav>
       </div>

@@ -23,7 +23,7 @@ const Freetrial = () => {
                       <label for="email" class="leading-7 text-sm text-gray-400">Email</label>
                       <input type="email" id="email" name="email" class="w-full bg-gray-600 bg-opacity-20 focus:bg-transparent focus:ring-2 focus:ring-purple-900 rounded border border-gray-600 focus:border-purple-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required/>
                   </div>
-                  <input type='submit' value="Enviar" class="text-white button__bg border-0 py-2 px-8 focus:outline-none hover:bg-orange-800 rounded text-lg"/>
+                  <input type='submit' class="text-white button__bg border-0 py-2 px-8 focus:outline-none hover:bg-orange-800 rounded text-lg"/>
 
                   <p class="text-xs mt-3">The sample will be sent within 24 hours</p>
                   </div>
