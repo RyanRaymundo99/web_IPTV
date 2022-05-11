@@ -21,10 +21,13 @@ const Navbar = () => {
       <div className='cine-club__navbar gradient__bg'>
 
           <div className='cine-club__navbar-links'>
-              <div className='cine-club__navbar-links_logo'>
-                  <div className='logo'><LiveTvOutlinedIcon style={{ fontSize: '50' }} /></div>
-                  <h1>CINE TV</h1>
-              </div>
+              <Link to="/">
+                <div className='cine-club__navbar-links_logo'>
+                    <div className='logo'><LiveTvOutlinedIcon style={{ fontSize: '50' }} /></div>
+                    <h1>CINE TV</h1>
+                </div>
+              </Link>
+              
 
               <div className='cine-club__navbar-links_container'>
                  <Menu />
