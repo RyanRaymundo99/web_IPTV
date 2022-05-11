@@ -12,7 +12,7 @@ function CartMenu() {
                 <img className='lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center' src={cart} alt="cart" />
             </div>
             <div class="text-center lg:w-2/3 w-full">
-              <h1 class="sm:text-4xl text-base mb-4 font-medium text-gray-900">Seems like there aren't any items in your cart</h1>
+              <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Seems like there aren't any items in your cart</h1>
               <p class="mb-1 leading-relaxed"> No problem. Keep scrolling to choose a plan!</p>
             </div>
         </div>
@@ -279,7 +279,7 @@ function CartMenu() {
 
          <div class="flex justify-center mb-20">
                   <Link to="/">
-                  <button class="ml-4 inline-flex text-white button__bg border-0 py-2 px-6 focus:outline-none hover:bg-orange-700 rounded text-lg"> <ArrowBackIcon style={{ fontSize: '34' }} /> Go back to main menu </button>
+                  <button class="ml-4 inline-flex text-white button__bg border-0 py-2 px-6 focus:outline-none hover:bg-orange-700 rounded text-lg"> <ArrowBackIcon style={{ sm: '20' , fontSize: '34' }} /> Go back to main menu </button>
                   </Link>
               </div>
         </section>    
