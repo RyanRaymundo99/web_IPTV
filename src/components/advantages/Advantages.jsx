@@ -7,7 +7,7 @@ const Advantages = () => {
       <section className="text-gray-400 bg-gray-900 body-font" id='Advantages'>
         <div class="container px-4 py-20 mx-auto">
           <div class="text-center mb-5">
-            <h1 className='sm:text-3xl text-2xl font-medium title-font mb-4 gradient__text'>Advantages</h1>
+            <h1 className='sm:text-3xl text-2xl font-medium text-white title-font mb-4'>Advantages</h1>
             <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400">We offer a wide, high quality and very diverse channel grid! We have fun and entertainment for the whole family!</p>
             <div class="flex mt-6 justify-center">
               <div class="w-16 h-1 rounded-full bg-orange-500 inline-flex"></div>
