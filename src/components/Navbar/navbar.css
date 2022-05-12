@@ -31,11 +31,13 @@
     margin-top: 0.1rem;
     line-height: 5px;
     cursor: pointer;
+    display: flex;
+    flex-direction: row;
 }
 
 .cine-club__navbar-links_logo h1 {
     color: white;
-
+    padding-top: 25px;
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -134,7 +136,7 @@
     }
 
     .cine-club__navbar-links_logo {
-        margin-right: 10rem;
+        margin-right: 10px;
     }
 
     .cine-club__navbar-menu {
@@ -163,5 +165,8 @@
 
     .cine-club__navbar-links_logo h1 {
         font-size: 15px;
+    }
+    .logo {
+        font-size: 10px;
     }
 }
