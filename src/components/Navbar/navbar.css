@@ -28,7 +28,7 @@
 
 .cine-club__navbar-links_logo {
     margin-right: 10rem;
-    margin-top: 0.1rem;
+    margin-top: 0.2rem;
     line-height: 5px;
     cursor: pointer;
     display: flex;
@@ -44,8 +44,8 @@
 
 
 .cine-club__navbar-links_logo .logo {
-    width: 60px;
-    font-size: 30px;
+    width: 90px;
+    font-size: 10px;
     margin-bottom: 10px;
 }
 

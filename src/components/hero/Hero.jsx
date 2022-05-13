@@ -3,13 +3,18 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import { BsMessenger } from "react-icons/bs";
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion'
 
 const Hero = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
     <div className='cine-club__header' id='home'>
-        <div className='cine-club__header-content'>
+        <motion.div className='cine-club__header-content'
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 2 }}
+        >
             <h4>ENTERTAINMENT FOR THE WHOLE FAMILY</h4>
 
             <h1> WATCH ON SMART TV, PC, TV BOX AND CELL PHONES</h1>
@@ -17,7 +22,7 @@ const Hero = () => {
             <p>The possibility to watch your TV show anywhere, and on any device with internet access computers, smart TV, TV BOX, ANDROID, IOS, not being tied to an antenna or cable installation. With the quality even superior to conventional systems.The possibility to watch your TV show anywhere, and on any device with internet access computers, smart TV, TV BOX, ANDROID, IOS, not being tied to an antenna or cable installation.</p>
 
             <a className='header_button' href="#Channels">Keep reading</a>
-        </div>
+        </motion.div>
 
         <div className='zap'>
           <a class="float">
