@@ -5,8 +5,8 @@ import { motion } from 'framer-motion';
 const Advantages = () => {
   return (
     <div>
-      <section className="text-gray-400 bg-gray-900 body-font" id='Advantages'>
-        <div class="container px-4 pb-10 pt-5 mx-auto">
+      <section className="text-gray-400 bg-gray-900 body-font overflow-hidden" id='Advantages'>
+        <div class="container px-4 pb-10 pt-5 mx-auto overflow-hidden">
           <div class="text-center mb-5">
             <h1 className='sm:text-3xl text-5xl font-medium text-white title-font mb-4'>Advantages</h1>
             <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400">We offer a wide, high quality and very diverse channel grid! We have fun and entertainment for the whole family!</p>

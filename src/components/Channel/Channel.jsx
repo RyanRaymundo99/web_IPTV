@@ -5,21 +5,21 @@ import ReactPlayer from 'react-player';
 
 const Channel = () => {
   return (
-    <div className='channel' id='Channels'>
-        <section class="text-gray-400 bg-gray-900 body-font">
-            <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+    <div className='channel overflow-hidden' id='Channels'>
+        <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
+            <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center overflow-hidden">
                     <div class="lg:flex-grow sm:w-1/2 md:w-auto lg:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <p class="text-sm mt-2 text-white mb-8 w-full">+80 thousand movies and series</p>    
                     <motion.h1 class="title-font sm:text-4xl text-4xl mb-5 font-medium gradient__text pb-1"
-                      initial={{x: -600}}
+                      initial={{x: -200}}
                       whileInView={{x: 0}}
                       transition={{ delay: 0.2, duration: 0.5 }}
 
                     >We offer all Open and Closed Channels, without crashes and in great qualities.
                     </motion.h1>
 
-                    <motion.p class="mb-8 leading-relaxed"
-                      initial={{x:500, opacity: 0}}
+                    <motion.p class="mb-8 leading-relaxed overflow-hidden"
+                      initial={{x: 200, opacity: 0}}
                       whileInView={{x:0, opacity: 1}}
                       transition={{ delay: 0.2, duration: 0.5 }}
 
@@ -33,7 +33,7 @@ const Channel = () => {
                       whileInView={{ opacity: 1 }}
                       transition={{ delay: 0.5, duration: 1 }}
                     >
-                    <ReactPlayer playing muted loop width="600px" height="400px" url="https://youtu.be/hOYOoUyNqJ8" controls={false}/>
+                    <ReactPlayer playing muted loop width="600px" height="400px" url="https://youtu.be/UCTzH8jhkp8" controls={false}/>
                     </motion.div>
             </div>
         </section>
