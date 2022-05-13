@@ -31,7 +31,7 @@ const Advantages = () => {
             <motion.div class="p-4 md:w-1/3 flex flex-col text-center items-center"
               initial={{y: 200, opacity: 0}}
               whileInView={{y:0, opacity: 1}}
-              transition={{ delay: 1, duration: 0.5 }}
+              transition={{ delay: 0.8, duration: 0.3 }}
             >
               <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-500 mb-5 flex-shrink-0">
                 <QueryBuilderOutlined style={{ fontSize: 53 }}/>
@@ -44,7 +44,7 @@ const Advantages = () => {
             <motion.div class="p-4 md:w-1/3 flex flex-col text-center items-center"
               initial={{y: 200, opacity: 0}}
               whileInView={{y:0, opacity: 1}}
-              transition={{ delay: 1.5, duration: 0.5 }}
+              transition={{ delay: 1, duration: 0.2 }}
             >
               <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-500 mb-5 flex-shrink-0">
                 <PaidOutlined style={{ fontSize: 53 }} />
