@@ -4,6 +4,7 @@ import { BsMessenger } from "react-icons/bs";
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion'
+import qr from '../../assets/qr.jpg'
 
 const Hero = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -33,9 +34,9 @@ const Hero = () => {
            {toggleMenu && (
               <div className='cine-club__navbar-menu_container-zap scale-up-center'>
                   <div className='cine-club__navbar-menu_container-links-zap'>
-                       <a href='https://wa.me/message/MHFFSJY36MWCP1'>Morning</a>
-                       <a href='https://wa.me/message/MHFFSJY36MWCP1'>Evening</a>
-                       <a href='https://wa.me/message/MHFFSJY36MWCP1'>Night</a>
+                       <a href='https://wa.me/message/MHFFSJY36MWCP1'>Link para contato direto</a>
+                       <p>QR code para escanear:</p>
+                       <img className='cine-club__navbar-menu_container-links-zap-img' src={qr} alt="qr" />
                   </div>
               </div>
            )}
