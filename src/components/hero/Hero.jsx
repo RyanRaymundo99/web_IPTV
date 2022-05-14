@@ -34,8 +34,8 @@ const Hero = () => {
            {toggleMenu && (
               <div className='cine-club__navbar-menu_container-zap scale-up-center'>
                   <div className='cine-club__navbar-menu_container-links-zap'>
-                       <a href='https://wa.me/message/MHFFSJY36MWCP1'>Link para contato direto</a>
-                       <p>QR code para escanear:</p>
+                       <a href='https://wa.me/message/MHFFSJY36MWCP1'>Direct link</a>
+                       <p>Or use our QR code:</p>
                        <img className='cine-club__navbar-menu_container-links-zap-img' src={qr} alt="qr" />
                   </div>
               </div>
