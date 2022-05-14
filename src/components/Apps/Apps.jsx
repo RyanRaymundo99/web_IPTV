@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import './apps.css';
 
 const Apps = () => {
@@ -9,7 +10,11 @@ const Apps = () => {
     <div class="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Watch Wherever You Want</h1>
       <p class="mb-8 leading-relaxed">Cine TV offers a totally exclusive app for you. Just download it and watch whatever you want and whenever you want. Our App offers all types of Series, just choose which one you want to watch.</p>
-      <div class="flex text-gray-300">
+      <motion.div class="flex text-gray-300 overflow-hidden"
+        initial={{ x: '-100vw'}}
+        whileInView={{ x: 0 }}
+        transition={{ type: 'spring', stiffness: 120}}
+      >
         <a href="https://play.google.com/store/apps/details?id=com.nathnetwork.xciptv&hl=en&gl=US">
         <button class="bg-gray-800 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-700 hover:text-white focus:outline-none">
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 512 512">
@@ -20,7 +25,7 @@ const Apps = () => {
           </span>
         </button>
         </a>
-      </div>
+      </motion.div>
     </div>
   </div>
 </section>
