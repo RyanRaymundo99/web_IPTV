@@ -11,7 +11,7 @@ const Channel = () => {
                     <div class="lg:flex-grow sm:w-1/2 md:w-auto lg:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <p class="text-sm mt-2 text-white mb-8 w-full">+80 thousand movies and series</p>    
                     <motion.h1 class="title-font sm:text-4xl text-4xl mb-5 font-medium gradient__text pb-1"
-                      initial={{x: -200}}
+                      initial={{x: -600}}
                       whileInView={{x: 0}}
                       transition={{ delay: 0.2, duration: 0.5 }}
 
