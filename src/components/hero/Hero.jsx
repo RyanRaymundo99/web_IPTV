@@ -12,9 +12,9 @@ const Hero = () => {
   return (
     <div className='cine-club__header' id='home'>
         <motion.div className='cine-club__header-content'
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 2 }}
+          initial={{ opacity: 0, y: 80 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5, duration: 1, ease: 'easeInOut' }}
         >
             <h4>ENTERTAINMENT FOR THE WHOLE FAMILY</h4>
 
