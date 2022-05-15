@@ -35,7 +35,11 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
 
   return (
-      <div className='cine-club__navbar gradient__bg'>
+      <motion.div className='cine-club__navbar gradient__bg'
+        initial={{ opacity: 0, y: -180 }}
+        animate={{ opacity: 1, y: 0}}
+        transition={{ ease: 'easeInOut', duration: 1, delay: 0.6 }}
+        >
 
           <div className='cine-club__navbar-links'>
               <Link to="/">
@@ -73,7 +77,7 @@ const Navbar = () => {
               }
           </div>      
 
-      </div>
+      </motion.div>
   )
 }
 
