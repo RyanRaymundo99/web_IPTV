@@ -36,7 +36,7 @@ const Navbar = () => {
 
   return (
       <motion.div className='cine-club__navbar gradient__bg'
-        initial={{ opacity: 0, y: -180 }}
+        initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0}}
         transition={{ ease: 'easeInOut', duration: 1, delay: 0.6 }}
         >

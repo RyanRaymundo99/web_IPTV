@@ -3,10 +3,9 @@
     justify-content: space-between;
     align-items: center;
     color: white;
-    padding: 0.1rem 1.5rem;
+    padding: 0 1.5rem;
     position: sticky;
     top: 0;
-    z-index: 999;
     width: 100%;
 }
 

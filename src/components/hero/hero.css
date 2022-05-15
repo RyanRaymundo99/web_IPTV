@@ -59,7 +59,6 @@
 	text-align:center;
     align-items: center;
     text-align: center;
-    z-index: 999;
 }
 
 .my-float{
@@ -70,11 +69,12 @@
 {
     display: flex;
     flex-direction: row;
-    padding: 10.9rem 2rem;
+    padding: 11rem 2rem;
     background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5298bac0-b8bf-4c80-af67-725c1272dbb0/deh1s8r-e0e4f6a5-ea9f-4e7e-8223-836d852c59ac.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUyOThiYWMwLWI4YmYtNGM4MC1hZjY3LTcyNWMxMjcyZGJiMFwvZGVoMXM4ci1lMGU0ZjZhNS1lYTlmLTRlN2UtODIyMy04MzZkODUyYzU5YWMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-uB5j2hdgZz6vNZ7SXV_4bYzJqTi45Kyr1UxQ4XvhLs"), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: -60px;
 }
 
 .cine-club__header-content
